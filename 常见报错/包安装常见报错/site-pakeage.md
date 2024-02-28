@@ -33,7 +33,7 @@ install-xvese17p\dlib_f39a18e5a3944393a12f0221b30c6b30\build\lib.win-amd64-cpyth
 
 **解决方案：**
 
-![image-20231123103915464](./assets/image-20231123103915464.png)
+![image-20231123103915464](https://raw.githubusercontent.com/kaisersama112/typora_image/master/assetsimage-20231123103915464.png)
 
 1. 查看python 版本 下载对应版本[dlib](https://pypi.org/simple/dlib/)文件
 2. 进入环境 `pip install xxx.whl`
@@ -82,7 +82,7 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
 ​	[Links for onnxruntime (tsinghua.edu.cn)](https://pypi.tuna.tsinghua.edu.cn/simple/onnxruntime/)
 
-![image-20231203222024893](./assets/image-20231203222024893.png)
+![image-20231203222024893](https://raw.githubusercontent.com/kaisersama112/typora_image/master/assetsimage-20231203222024893.png)
 
 **解决方案：**
 

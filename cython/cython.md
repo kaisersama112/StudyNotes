@@ -155,7 +155,7 @@ def f(x: cython.double) -> cython.double:
 
 在优化速度功能时，此报告非常宝贵， 以及确定何时可以[释放 GIL](https://cython.readthedocs.io/en/latest/src/userguide/external_C_code.html#nogil)（请注意，释放 GIL 仅在有限的情况下有用 情况，请参阅 [Cython 和 GIL](https://cython.readthedocs.io/en/latest/src/userguide/nogil.html#cython-and-gil) 了解更多详情）： 通常，一个块只能包含“白色”代码。`nogil`
 
-![../../_images/htmlreport_py.png](./assets/htmlreport_py.png)
+![../../_images/htmlreport_py.png](https://raw.githubusercontent.com/kaisersama112/typora_image/master/assetshtmlreport_py.png)
 
 请注意，Cython 根据局部变量的赋值推断局部变量的类型 （包括作为循环变量目标），这也可以减少对 在任何地方显式指定类型。 例如，声明为上述 double 类型是不必要的， 在上一个版本中声明 的类型（其中 返回类型 的已知是 C 双精度。然而，一个值得注意的例外是*算术表达式中使用的整数类型*，因为 Cython 无法确保 不会发生溢出（因此回退到以防万一 需要 Python 的 bignums）。要允许推断 C 整数类型，请将[指令](https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-directives)设置为 。本指令 为熟悉的读者做类似于 C++ 中的关键字的工作 具有此语言功能。它可以对减少打字的需要有很大帮助 一切，但它也可能导致惊喜。特别是如果一个人不熟悉 具有 C 类型的算术表达式。快速概述 可以[在这里](https://www.eskimo.com/~scs/cclass/int/sx4cb.html)找到。`dx``s``f``object``infer_types``True``auto`
 
