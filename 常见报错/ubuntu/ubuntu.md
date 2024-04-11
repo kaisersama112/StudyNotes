@@ -80,3 +80,14 @@ sudo aptitude -y install git-lfs
 
 
 
+
+
+### 4. 服务器端口映射
+
+```cmd
+ssh -p 39855 -L 8501:192.168.235.123:8501 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+```
+
+-- -p 远程服务器端口
+
+-L 远程端口:远程ip:本地端口
