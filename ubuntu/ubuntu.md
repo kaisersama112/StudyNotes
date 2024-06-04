@@ -88,7 +88,7 @@ sudo aptitude -y install git-lfs
 ssh -p 39855 -L 8501:192.168.235.123:8501 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
 
 
-ssh -p 39855 -L 172.16.4.114:8500:192.168.229.143:8500 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+ssh -p 39855 -L 172.16.4.114:8500:192.168.225.224:8500 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
 ```
 
 -- -p 远程服务器端口
