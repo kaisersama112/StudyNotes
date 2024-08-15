@@ -89,6 +89,8 @@ ssh -p 39855 -L 8501:192.168.235.123:8501 root@ssh.intern-ai.org.cn -o StrictHos
 
 
 ssh -p 39855 -L 172.16.4.114:8500:192.168.225.224:8500 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+
+ssh -p 46916 -L 172.16.4.114:8500:172.17.0.9:8500 root@connect.cqa1.seetacloud.com
 ```
 
 -- -p 远程服务器端口
