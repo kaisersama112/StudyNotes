@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"92abc39f0006f863","type":"text","text":"公式识别后预览","x":-280,"y":580,"width":250,"height":60},
+		{"id":"10615d4530b9b1b0","type":"text","text":"项目大小优化","x":-280,"y":700,"width":250,"height":60},
+		{"id":"d91a5c416a69bc10","type":"text","text":"符合物理规律的模型？","x":200,"y":380,"width":250,"height":60}
+	],
+	"edges":[]
+}

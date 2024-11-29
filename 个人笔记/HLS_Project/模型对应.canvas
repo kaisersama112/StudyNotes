@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"ca7119662d490c86","type":"text","text":"HLS","x":-925,"y":-54,"width":250,"height":60},
+		{"id":"ac23a21e6d3cc301","type":"text","text":"自然语言大模型微调","x":-446,"y":-580,"width":250,"height":60},
+		{"id":"3ac7b0db6c70fbd8","type":"text","text":"数据标注","x":57,"y":-550,"width":250,"height":60},
+		{"id":"984192fc009f3707","type":"text","text":"darknet 标注工具","x":409,"y":-550,"width":250,"height":60},
+		{"id":"94874645d9d620cd","type":"text","text":"人脸检测模型","x":57,"y":-437,"width":250,"height":60},
+		{"id":"3a3239866fcb0534","type":"text","text":"internlm 课表抽取垂直微调","x":61,"y":-740,"width":306,"height":93},
+		{"id":"b9a07c8e43c5837d","type":"text","text":"人脸检测 ，人脸识别","x":-446,"y":-340,"width":250,"height":60},
+		{"id":"77fe8dcaff6c677b","type":"text","text":"公式检测模型","x":-446,"y":60,"width":250,"height":60},
+		{"id":"c619aa31918f09e4","type":"text","text":"公式识别模型","x":-446,"y":340,"width":250,"height":60},
+		{"id":"3152f57f1be9355d","type":"text","text":"人脸识别模型训练\n\n[[D:\\cv\\insightface]]","x":1000,"y":134,"width":423,"height":134},
+		{"id":"0c247854fb92e81a","type":"file","file":"HLS_Project/针对婴幼儿人脸识别模型训练.md","x":1000,"y":-330,"width":400,"height":400},
+		{"id":"83ecedfc34c294c3","type":"text","text":"人脸识别模型","x":409,"y":-280,"width":250,"height":110},
+		{"id":"e5377a8b6e318a8e","type":"text","text":"侧端部署\n（\n[[D:\\cv\\ai_heic]]，\n[[D:\\cv\\ai-album]]，\n[[D:\\cv\\test_face]]，\n）","x":409,"y":-144,"width":250,"height":180},
+		{"id":"9705425e77a35e9a","type":"text","text":"SCRFD架构（SCRFD_500M_KPS）","x":409,"y":-437,"width":250,"height":60},
+		{"id":"cd0b699741e6f718","type":"text","text":"YOLOV8架构 [[D:\\geren_test\\mfd_model_train]]","x":57,"y":84,"width":250,"height":100},
+		{"id":"3a2efc48b82cc72e","type":"text","text":"Unimer Net 架构[[D:\\geren_test\\uniMER_net_train]]","x":57,"y":384,"width":250,"height":120},
+		{"id":"1bee20d767baac82","type":"file","file":"HLS_Project/数学公式识别模型微调.md","x":409,"y":268,"width":400,"height":400},
+		{"id":"b6c2a2dae2c90bfb","x":459,"y":-1047,"width":400,"height":400,"type":"file","file":"HLS_Project/internlm数据构建.canvas"},
+		{"id":"6f1844df402d7bf4","type":"file","file":"HLS_Project/internlm数据构建.canvas","x":459,"y":-1047,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"62f4cc82b1496a4c","fromNode":"77fe8dcaff6c677b","fromSide":"right","toNode":"cd0b699741e6f718","toSide":"left"},
+		{"id":"5fbfeeba4cd927c1","fromNode":"c619aa31918f09e4","fromSide":"right","toNode":"3a2efc48b82cc72e","toSide":"left"},
+		{"id":"af1a95f09813ab3e","fromNode":"ca7119662d490c86","fromSide":"right","toNode":"77fe8dcaff6c677b","toSide":"left"},
+		{"id":"ef32748be4a15fe2","fromNode":"ca7119662d490c86","fromSide":"right","toNode":"c619aa31918f09e4","toSide":"left"},
+		{"id":"ced9fdb8c58800da","fromNode":"b9a07c8e43c5837d","fromSide":"right","toNode":"e5377a8b6e318a8e","toSide":"left"},
+		{"id":"dc083c6ffdb30010","fromNode":"94874645d9d620cd","fromSide":"right","toNode":"9705425e77a35e9a","toSide":"left"},
+		{"id":"74443b4128e666b6","fromNode":"b9a07c8e43c5837d","fromSide":"right","toNode":"94874645d9d620cd","toSide":"left"},
+		{"id":"b534c58d0000b77f","fromNode":"b9a07c8e43c5837d","fromSide":"right","toNode":"83ecedfc34c294c3","toSide":"left"},
+		{"id":"a4e88db8151f85cd","fromNode":"ca7119662d490c86","fromSide":"right","toNode":"b9a07c8e43c5837d","toSide":"left"},
+		{"id":"496c2f17060d171d","fromNode":"83ecedfc34c294c3","fromSide":"right","toNode":"3152f57f1be9355d","toSide":"left"},
+		{"id":"52ea66f039fe9b7e","fromNode":"3ac7b0db6c70fbd8","fromSide":"right","toNode":"984192fc009f3707","toSide":"left"},
+		{"id":"859547edec51300e","fromNode":"b9a07c8e43c5837d","fromSide":"right","toNode":"3ac7b0db6c70fbd8","toSide":"left"},
+		{"id":"a102064fddb0c1a8","fromNode":"83ecedfc34c294c3","fromSide":"right","toNode":"0c247854fb92e81a","toSide":"left"},
+		{"id":"5b163aaf598d0305","fromNode":"3a2efc48b82cc72e","fromSide":"right","toNode":"1bee20d767baac82","toSide":"left"},
+		{"id":"d1034b2bc1f484aa","fromNode":"ca7119662d490c86","fromSide":"right","toNode":"ac23a21e6d3cc301","toSide":"left"},
+		{"id":"c05d9a30938dc302","fromNode":"ac23a21e6d3cc301","fromSide":"right","toNode":"3a3239866fcb0534","toSide":"left"},
+		{"id":"c60f658ae080667e","fromNode":"3a3239866fcb0534","fromSide":"right","toNode":"b6c2a2dae2c90bfb","toSide":"left"}
+	]
+}

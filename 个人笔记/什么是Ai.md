@@ -1,9 +1,0 @@
-AI（人工智能）是通过模拟和实现人类智能来执行特定任务的技术和方法。它是计算机科学的一个分支，旨在让机器具备感知、推理、学习和自我纠错的能力。从技术的角度来看，人工智能包括了多个子领域，其中最为核心的是机器学习（Machine Learning）。机器学习则是指让计算机系统通过数据学习，而不需要显式的编程。
-
-进一步深入，深度学习（Deep Learning）作为机器学习的一个分支，使用神经网络结构来模拟人类大脑的工作原理，通过大量数据训练模型，能够在图像识别、语音处理、自然语言理解等领域取得显著成果。
-
-如今，随着技术的进步，"大模型"的出现成为了人工智能领域的一个重要趋势。大模型是指拥有极为庞大参数量的机器学习模型，通常这些模型包含了数十亿、数百亿甚至更多的参数，并能够处理海量的数据。这些大规模模型，像GPT（Generative Pretrained Transformer）系列、BERT（Bidirectional Encoder Representations from Transformers）、以及Google的PaLM等，它们的优势在于能够在更为复杂的任务上进行精准推理，并具备强大的生成能力，能够自动生成文本、进行复杂的语言理解和对话等。
-
-在学习大模型之前，需要掌握一些前置知识，因为大模型的训练和应用涉及到多个复杂的技术领域。
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5d12edee92a100677e1909c2c5d54c1fcae485ceceedc35ee8c0ae7b8fcaa6fc0ec177c308ebd53045760852f23addafd51af0fc08f9cf201c0fc8ae0123b97ca36b52075b4f6f9b2c63650f172fe51904fb4c8ed7016461c?tmpCode=e176fd1a-8654-434c-a502-e5a5a911ac38)

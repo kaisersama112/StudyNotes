@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c1a03b6457489dce","type":"text","text":"标准数据","x":-420,"y":-240,"width":250,"height":60,"color":"5"},
+		{"id":"7705ff159f162555","type":"text","text":"按照多种规则切分（5，10，15）","x":-80,"y":-240,"width":250,"height":60},
+		{"id":"ebbd3ccd52fb3e36","type":"text","text":"构建为输入（input）","x":260,"y":-240,"width":250,"height":60},
+		{"id":"462e670a7cd47d13","type":"text","text":"非标准数据","x":-420,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"afbeeecb1abada2a","type":"text","text":"转换为标准数据","x":-420,"y":-120,"width":250,"height":60},
+		{"id":"ae91ba299f5e95ce","type":"text","text":"借助其他模型完成output构建","x":640,"y":-240,"width":250,"height":60},
+		{"id":"4ef82c6b4b76f019","type":"text","text":"数据校验","x":640,"y":-90,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"e9ddd9be43940d70","fromNode":"c1a03b6457489dce","fromSide":"right","toNode":"7705ff159f162555","toSide":"left"},
+		{"id":"91ef5d59c6220974","fromNode":"462e670a7cd47d13","fromSide":"top","toNode":"afbeeecb1abada2a","toSide":"bottom"},
+		{"id":"318e96b4ddb6a5de","fromNode":"afbeeecb1abada2a","fromSide":"top","toNode":"c1a03b6457489dce","toSide":"bottom"},
+		{"id":"67689f62b45e86ed","fromNode":"7705ff159f162555","fromSide":"right","toNode":"ebbd3ccd52fb3e36","toSide":"left"},
+		{"id":"86117f1065050a5e","fromNode":"ebbd3ccd52fb3e36","fromSide":"right","toNode":"ae91ba299f5e95ce","toSide":"left"},
+		{"id":"b417154f372836ca","fromNode":"ae91ba299f5e95ce","fromSide":"bottom","toNode":"4ef82c6b4b76f019","toSide":"top"}
+	]
+}
